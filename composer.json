@@ -1,0 +1,19 @@
+{
+    "name": "thusitha/package-time",
+    "type": "laravel-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thusitha\\Package\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Thusitha\\Package\\Time"
+    },
+   
+    "require": {
+        "nesbot/carbon": "^2.16"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
